@@ -1,0 +1,172 @@
+.section-download-links{
+    background-color: rgba(173, 226, 223, 1);
+    padding: 6em 4em 4em 4em;
+    text-align: center;
+}
+
+.section-download-links .download-buttons-area{
+    margin-top: 2em;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.section-download-links .download-buttons-area .download-button{
+    background-color: black;
+    padding: 1.5em 2em;
+    border-radius: 1em;
+}
+
+.section-download-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-download-links svg{
+    fill: white;
+    margin-right: 0.5em;
+}
+
+
+.section-stats{
+    padding: 6em 4em 4em 4em;
+    display: flex;
+    justify-content: center;
+}
+
+.section-stats .stat-card{
+    padding: 0.2em 2em 6em 2em;
+    text-align: center;
+    max-width: 25em;
+    border-left: 1px solid #DDD;
+    border-right: 1px solid #DDD;
+}
+
+
+.section-everything-you-get{
+    background-color: rgba(173, 226, 223, 1);
+    padding: 0 20em 0 20em;
+    display: flex;
+    gap: 6em;
+    justify-content: center;
+}
+
+.section-everything-you-get .phone-image{
+    border: 2px dashed #AAA;
+}
+
+.section-everything-you-get .texts{
+    padding-top: 7em;
+}
+
+.section-everything-you-get .texts p{
+    margin-bottom: 2em;
+}
+
+.section-everything-you-get .texts a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5em;
+}
+
+
+.section-pricing-plans{
+    background-color: #EEE;
+    padding: 4em 0 4em 0;
+    text-align: center;
+}
+
+.section-pricing-plans .section-header a{
+    background-color: rgba(173, 226, 223, 1);
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+
+.section-pricing-plans .section-header h3{
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+}
+
+.section-pricing-plans .plans-cards-area{
+    display: flex;
+    text-align: left;
+    border: 1px solid #DDD;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+.section-pricing-plans .plans-cards-area .plan-card {
+    background-color: white;
+    padding: 1em;
+    border-right: 1px solid #DDD;
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-pricing-plans .plans-cards-area .expand{
+    background-color: rgba(173, 226, 223, 1);
+    padding: 1em;
+    padding-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-pricing-plans .plans-cards-area .plan-card h5{
+    text-align: center;
+}
+
+.section-pricing-plans .plans-cards-area .plan-card p{
+    margin-top: 1em;
+}
+
+.section-pricing-plans .plans-cards-area .plan-card span.price-number{
+    font-weight: 700;
+    font-size: 2em;
+    margin-right: 0.2em;
+}
+
+.section-pricing-plans .plans-cards-area .plan-card .price-line:after{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 2px;
+    border: 2px;
+    background-color:  #DDD;
+    margin: 0.5em auto; 
+}
+
+.section-pricing-plans .plans-cards-area .plan-card ul{
+    margin-top: 1.5em;
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+
+.section-pricing-plans .plans-cards-area .plan-card ul li svg{
+    margin-right: 0.5em
+}
+
+.section-pricing-plans a{
+    text-decoration: none;
+    padding: 1em 2em;
+    background-color: rgba(173, 226, 223, 1);
+    color: black;
+    border-radius: 0.5em;
+    margin-right: auto;
+    margin-top: auto;
+    display: end;
+}
+
+.section-pricing-plans .expand a{
+    background-color: black;
+    color: white;
+}
+
+.section-pricing-plans .expand p{
+    font-weight: 600;
+}
+
+

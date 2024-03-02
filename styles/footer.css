@@ -1,0 +1,24 @@
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4em 15em;
+    align-content: space-between;
+}
+
+footer .socials{
+    margin-left: auto;
+}
+
+footer .socials a{
+    text-decoration: none;
+    padding: 0.2em;
+}
+
+footer .socials svg{
+    margin-left: 1em;
+}
+
+footer .socials svg:hover{
+    fill: white;
+    background-color: black;
+}
